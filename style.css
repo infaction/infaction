@@ -1,0 +1,431 @@
+
+/* ОБЩЕЕ */
+
+/* Заголовок трансляции */
+.Iframe_body .LNIframe .name {
+	color: #9254DE;
+	padding: 16px 32px !important;
+	border-radius: 4px;
+	background-color: rgba(0, 0, 0, .8);
+}
+
+/* Описание трансляции */
+.description {
+	color: #ededed !important;
+	padding: 16px 32px !important;
+	border-radius: 4px !important;
+	background-color: rgba(0, 0, 0, .8) !important;
+}
+
+/* Дата */
+.description-date {
+	padding: 16px 32px !important;
+	border-radius: 4px;
+	background-color: rgba(0, 0, 0, .8);
+}
+
+/* Ссылки */
+a {
+	color: #9254DE;
+}
+
+/* Кнопки */
+input[type="button"] {
+	background: #9254DE !important;
+	border-radius: 4px;
+	height: 40px !important;
+}
+
+/* Поля ввода */
+input[type="text"], input[type="password"] {
+	background: #a6abb3 !important;
+	border: 2px solid #848484 !important;
+	color: inherit;
+	border-radius: 2px;
+	text-align: left;
+}
+
+/* Поля ввода в фокусе (когда нажаты) */
+input[type="text"]:focus, input[type="password"]:focus {
+	border: 2px solid #9254DE !important;
+}
+
+/* Плашка "Ждём начала трансляции" */
+.Iframe_body .awa {
+	font-size: 14px;
+	padding: 16px 32px;
+	border-radius: 4px;
+	background-color: rgba(0, 0, 0, .8);
+}
+
+/* Цифры обратного отсчёта */
+.digit {
+	border-radius: 4px;
+}
+
+/* Плашка "Прямой эфир" */
+.Iframe_body .live-text {
+	display: flex;
+	background-color: rgba(0, 0, 0, .8);
+	padding: 8px 16px;
+	border-radius: 4px;
+}
+
+/* Красная точка прямого эфира */
+.Iframe_body .live-text .red_dot {
+	width: 6px;
+	height: 6px;
+	position: relative;
+	margin: 4px 8px 0 0px;
+}
+
+
+
+/* */ 
+
+/* СБОР КОНТАКТОВ (он же юзеррег, он же доступ по регистрации) */
+
+/* Окно регистрации */
+.userreg__window {
+	border-radius: 4px;
+}
+
+/* Заголовок окна регистрации */
+.userreg__header {
+	background-color: #444A51;
+}
+
+/* Текст заголовка окна регистрации */
+.userreg__header__title {
+	color: white;
+	font-size: 16px;
+	padding: 20px 16px;
+}
+
+/* Фон формы регистрации */
+.userreg {
+	background-color: #EFF0F2;
+}
+
+/* Подписи к полям в форме регистрации */
+.userreg__code {
+	color: #444A51;
+}
+
+/* Текст "Я принимаю соглашение о ПД */
+.userreg__body__accept label {
+	color: #444A51;
+	padding: 2px 0 8px 170px;
+}
+
+/* Галочка "Я принимаю соглашение о ПД */
+#userreg-user-accept {
+	margin-left: 139px;
+	margin-top: 10px;
+}
+
+/* Предупреждение, если включено подтверждение входа */
+.userreg__warning {
+	color: #444A51;
+	padding: 8px;
+}
+
+/* Ссылка "Есть код?" */
+.userreg-goback {
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+
+
+
+/* */ 
+
+/* Сообщение об успешной регистрации */
+
+/* Окно успешной регистрации */
+.Iframe_body .LNIframe .alert_window_popup {
+	border-radius: 4px;
+	width: auto;
+}
+
+/* Заголовок успешной регистрации */
+.Iframe_body .LNIframe .alert_window_popup_header {
+	background-color: #444A51;
+	height: auto !important;
+	min-height: 40px !important;
+	width: 450px;
+}
+
+/* Текст заголовка успешной регистрации*/
+.Iframe_body .LNIframe .alert_window_popup_title {
+	color: white;
+	font-size: 16px;
+	padding: 20px 32px;
+	margin: 0px !important;
+}
+
+/* Фон сообщения об успешной регистрации */
+.Iframe_body .LNIframe .alert_window {
+	background-color: #EFF0F2;
+	width: 450px;
+}
+
+/* Текст в окне успешной регистрации*/
+.Iframe_body .LNIframe .alert_window_msg {
+	color: #444A51;
+	margin: 0 0 28px;
+}
+
+/* Содержимое окна успешной регистрации*/
+.Iframe_body .LNIframe .alert_window_body {
+	padding: 32px 0px 24px 0px;
+}
+
+
+
+/* */ 
+
+/* Доступ по уник. паролям \ Платный доступ к трансляции (он же мультипароль) */
+
+/* Окно ввода пароля */ 
+.Iframe_body .LNIframe .auth_window {
+	border-radius: 4px;
+	width: auto;
+}
+
+/* Заголовок окна ввода пароля */
+.Iframe_body .LNIframe .auth_header {
+	background-color: #444A51;
+	height: auto !important;
+	min-height: 40px !important;
+	width: 450px;
+}
+
+/* Текст заголовка окна ввода пароля */
+.Iframe_body .LNIframe .auth_header .title {
+	color: white;
+	font-size: 16px;
+	margin: 20px 32px;
+}
+
+/* Подпись к вводу пароля */
+.Iframe_body .LNIframe .auth_enter_code {
+	color: #444A51;
+}
+
+/* Фон окна ввода пароля */
+.Iframe_body .LNIframe .auth {
+	background: #EFF0F2 !important;
+	width: 450px;
+	padding: 8px 0px 8px 16px;
+}
+
+/* Фиксы формы ввода пароля */
+.Iframe_body .LNIframe .event_form {
+	height: auto !important;
+	min-height: 40px !important;
+}
+.Iframe_body .LNIframe .auth .sbtn {
+	vertical-align: top;
+}
+
+
+
+/* */ 
+
+/* ПЛЕЕР */
+
+/* Контрольная панель плеера */
+.media-control[data-media-control] .media-control-background[data-background] {
+	background: #000;
+	opacity: .4;
+}
+
+/* Контейнер полосы перемотки */
+.media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] {
+	margin: 0px 4px;
+}
+
+
+/* Подложка полосы перемотки */
+.media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] {
+	background: rgba(29, 13, 91, 0.8);
+	border-radius: 4px;
+}
+
+/* Индикатор предзагруженного видео */
+.media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] .bar-fill-1[data-seekbar] {
+	background: rgba(83, 29, 171, 0.8);
+	border-radius: 4px;
+}
+
+/* Индикатор полосы перемотки */
+.media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] .bar-fill-2[data-seekbar] {
+	background: rgba(146, 84, 222, 0.95);
+	border-radius: 4px;
+}
+
+/* Полоса перемотки при прямом эфире */
+.media-control.live[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] .bar-fill-2[data-seekbar] {
+	background: rgba(146, 84, 222, 0.95);
+	border-radius: 4px;
+}
+
+/* Полоса перемотки при воспроизведении из записи во время прямого эфира */
+.dvr.media-control.live[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] .bar-fill-2[data-seekbar] {
+	background: rgba(108, 64, 162, 0.95);
+}
+
+/* Точка эпизода на полосе перемотки */
+.fragment-element__touch {
+	background-color: rgba(249, 240, 255, 0.8);
+}
+
+/* Фон настроек скорости воспроизведения */
+.playback_rate[data-playback-rate-select] > ul {
+	background: rgba(0, 0, 0, 0.8);
+	border: 1px solid #AA95FF;
+	right: 60%;
+	border-radius: 2px;
+	z-index: 100;
+}
+
+/* Треугольничек настроек скорости */
+.playback_rate[data-playback-rate-select] > ul::after {
+	border-top: 6px solid #AA95FF;
+}
+
+/* Текст настроек скорости воспроизведения */
+.playback_rate[data-playback-rate-select] li a {
+    color: #fff;
+}
+
+
+/* Фон настроек качества трансляции */
+.settings_menu[data-settings-menu] > .container {
+	background: rgba(0, 0, 0, 0.8);
+	border: 1px solid #AA95FF;
+	border-radius: 2px;
+	z-index: 100;
+}
+
+/* Треугольничек настроек кач-ва */
+.settings_menu[data-settings-menu] > .container::after {
+	border-top: 6px solid #AA95FF;
+}
+
+
+/* Кнопка "Комментарии" */
+/* Сначала нужно скрыть имеющуюся */
+.Iframe_body .comment_arrow {
+	top: 50% !important;
+	right: -64px;
+    visibility: hidden;
+}
+
+/* А потом отображаем кнопку, которую можно переименовать */
+.Iframe_body .comment_arrow:after {
+    content: 'Комментарии';
+    visibility: visible;
+    background: #531DAB;
+    padding: 7px 10px;
+	border-radius: 3px 3px 0px 0px;
+}
+
+/* Кнопка "Эпизоды", не забываем подкрутить вертикальное положение с помощью свойства top */
+/* Скрываем имеющуюся */
+.trigger-episode-button {
+	top: calc(50% - 174px) !important;
+	right: -64px;
+    visibility: hidden;
+}
+
+/* Отображаем новую, переименованную */
+.trigger-episode-button:after {
+    content: 'Эпизоды';
+    visibility: visible;
+    background: #531DAB;
+    padding: 7px 10px;
+	border-radius: 3px 3px 0px 0px;
+}
+
+/* Кнопка переключения языка */
+.Iframe_body .lang_arrow {
+	top: calc(50% - 106px) !important;
+	background-color: #531DAB;
+	border-radius: 3px 0px 0px 3px;
+}
+
+/* Контейнер языков */
+.lang_holder {
+	margin-top: 0px !important;
+	top: calc(50% - 3px);
+	border-radius: 2px;
+}
+
+/* Лого Фейскаст */
+button[aria-label="facecast-icon"] > img {
+	display: none;
+}
+button[aria-label="facecast-icon"] {
+	background-image: url(/v/clients/timur/logo.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 64px !important;
+}
+
+
+/* */ 
+
+/* БОКОВЫЕ ПАНЕЛИ  */
+
+/* Фон навигатора по эпизодам */
+.episodes-navigation-container {
+	background-color: #292C31;
+}
+
+/* Ссылка на эпизод в навигаторе */
+.episodes-navigation-episode .headline {
+	color: #FAFAFB !important;
+}
+
+/* Ссылка на фрагмент в навигаторе */
+.episodes-navigation-episode-fragment {
+	color: #DFE2E4 !important;
+
+}
+
+
+
+/* */
+
+/* ЧАТ \ КОММЕНТАРИИ */
+
+/* Фон комментариев (лучше оставить белым, чтобы не просвечивал) */
+
+.Iframe_body #hypercomments_widget {
+	background-color: #ffffff;
+}
+
+
+
+/* Классы "hc__authorization__soc" и "hc__voting" отвечают за блоки авторизации через соцсети и голосование за комментарии.
+
+Авторизацию через соцсети можно отключить, если их раскомментировать (убрать звёздочки и слэши до и после).
+
+Важно! Если вы скрываете авторизацию через соцсети, необходимо также скрыть кнопки голосования.
+
+Потому что для голосования за комментарии необходимо авторизоваться через соцсети, это требование HyperComments. */
+
+
+/*
+
+.hc__authorization__soc {
+	display: none;
+}
+.hc__voting {
+	display: none;
+}
+
+*/
