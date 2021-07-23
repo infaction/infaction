@@ -3,7 +3,7 @@
 
 /* Заголовок трансляции */
 .Iframe_body .LNIframe .name {
-	color: #9254DE;
+	color: #ffffff;
 	padding: 16px 32px !important;
 	border-radius: 4px;
 	background-color: rgba(0, 0, 0, .8);
@@ -39,7 +39,7 @@ input[type="button"] {
 /* Поля ввода */
 input[type="text"], input[type="password"] {
 	background: #a6abb3 !important;
-	border: 2px solid #848484 !important;
+	border: 2px solid #ffffff !important;
 	color: inherit;
 	border-radius: 2px;
 	text-align: left;
@@ -47,7 +47,7 @@ input[type="text"], input[type="password"] {
 
 /* Поля ввода в фокусе (когда нажаты) */
 input[type="text"]:focus, input[type="password"]:focus {
-	border: 2px solid #9254DE !important;
+	border: 2px solid #ffffff !important;
 }
 
 /* Плашка "Ждём начала трансляции" */
@@ -92,29 +92,29 @@ input[type="text"]:focus, input[type="password"]:focus {
 
 /* Заголовок окна регистрации */
 .userreg__header {
-	background-color: #444A51;
+	background-color: #ffffff;
 }
 
 /* Текст заголовка окна регистрации */
 .userreg__header__title {
-	color: white;
+	color: #ffffff;
 	font-size: 16px;
 	padding: 20px 16px;
 }
 
 /* Фон формы регистрации */
 .userreg {
-	background-color: #EFF0F2;
+	background-color: #ffffff;
 }
 
 /* Подписи к полям в форме регистрации */
 .userreg__code {
-	color: #444A51;
+	color: #ffffff;
 }
 
 /* Текст "Я принимаю соглашение о ПД */
 .userreg__body__accept label {
-	color: #444A51;
+	color: #ffffff;
 	padding: 2px 0 8px 170px;
 }
 
